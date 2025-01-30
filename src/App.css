@@ -1,0 +1,13 @@
+/* Global Styles or Main Content Styles */
+.main-content {
+  margin-left: 280px; /* Sidebar width (same as sidebar width) */
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+}
+
+/* For smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 250px; /* Adjust for smaller screens */
+  }
+}
