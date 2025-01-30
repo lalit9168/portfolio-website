@@ -78,12 +78,21 @@ const About = () => {
               margin-top: 20px;
             }
 
+            .about-text {
+              margin-left: 0; /* Remove gap between image and text */
+              padding: 15px;
+            }
+
             .about-heading {
               font-size: 2rem;
             }
 
             .about-content {
               font-size: 1rem;
+            }
+
+            .about-description {
+              font-size: 0.95rem; /* Slightly smaller text for mobile */
             }
           }
         `}
